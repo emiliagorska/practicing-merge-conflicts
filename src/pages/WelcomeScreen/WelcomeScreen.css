@@ -1,0 +1,26 @@
+/* .pageContainer {
+} */
+
+.titleContainer {
+    border: 1px solid black;
+    margin: auto;
+    max-width: 325px;
+    height: 64px;
+    margin-bottom: 32px;
+}
+
+.shareInfoButton {
+    height: 158px;
+    width: 325px;
+    border-radius: 25px;
+}
+
+.placeBidButton {
+    width: 325px;
+    height: 64px;
+}
+
+.newGameButton {
+    width: 325px;
+    height: 64px;
+}
