@@ -1,25 +1,17 @@
 import React from "react";
 import "./WelcomeScreen.css";
+import ShareInfoButton from "../../components/ShareInfoButton/ShareInfoButton";
+import ActionButton from "../../components/ActionButton/ActionButton";
+import PageWrapper from "../../components/PageWrapper/PageWrapper";
 
 const WelcomeScreen = () => {
   return (
-    <div className="pageContainer">
-      <div className="titleContainer">
-        <h1>Bidding stage</h1>
-      </div>
-      <div>
-        <button className="shareInfoButton">Share Information</button>
-      </div>
-      <div>
-        <button className="shareInfoButton">Share Information</button>
-      </div>
-      <div>
-        <button className="placeBidButton">Place Bid</button>
-      </div>
-      <div>
-        <button className="newGameButton">New Game</button>
-      </div>
-    </div>
+    <PageWrapper>
+      <ShareInfoButton marginBottom="16px">Share Information</ShareInfoButton>
+      <ShareInfoButton marginBottom="32px">Share Information</ShareInfoButton>
+      <ActionButton marginBottom="8px">Place Bid</ActionButton>
+      <ActionButton>New Game</ActionButton>
+    </PageWrapper>
   );
 };
 

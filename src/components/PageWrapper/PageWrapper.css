@@ -1,0 +1,9 @@
+.pageContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.componentsContainer {
+    width: clamp(200px, 75%, 700px);
+}
