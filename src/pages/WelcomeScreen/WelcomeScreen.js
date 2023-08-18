@@ -7,7 +7,9 @@ import PageWrapper from "../../components/PageWrapper/PageWrapper";
 const WelcomeScreen = () => {
   return (
     <PageWrapper>
-      <ShareInfoButton marginBottom="16px">Share Information</ShareInfoButton>
+      <ShareInfoButton marginBottom="16px">
+        Share Information - Edited in MAIN in commit 1{" "}
+      </ShareInfoButton>
       <ShareInfoButton marginBottom="32px">Share Information</ShareInfoButton>
       <ActionButton marginBottom="8px">Place Bid</ActionButton>
       <ActionButton>New Game</ActionButton>
