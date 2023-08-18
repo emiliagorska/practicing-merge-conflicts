@@ -13,7 +13,9 @@ const WelcomeScreen = () => {
       <ShareInfoButton marginBottom="32px">
         Share Information --Edited in branch in commit 1
       </ShareInfoButton>
-      <ActionButton marginBottom="8px">Place Bid</ActionButton>
+      <ActionButton marginBottom="8px">
+        Place Bid - Edited in branch in coomit 2
+      </ActionButton>
       <ActionButton>New Game</ActionButton>
     </PageWrapper>
   );
